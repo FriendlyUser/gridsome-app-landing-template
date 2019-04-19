@@ -17,7 +17,7 @@ module.exports = {
   siteName: 'Gridsome Portfolio Starter',
   siteDescription: 'A simple portfolio theme for Gridsome powered by Tailwind CSS v1.0',
   siteUrl: 'https://friendlyuser.github.io',
-  pathPrefix: '/gridsome-app-landing-template/',
+  pathPrefix: '/gridsome-app-landing-template',
   plugins: [
     {
       use: '@gridsome/source-filesystem',
