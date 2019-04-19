@@ -2,8 +2,8 @@ language: node_js
 node_js:
   - "10"
 before_script:
-  - npm install
-  - npm install --global @gridsome/cli
+  - yarn install
+  - yarn global add @gridsome/cli
 script:
   - gridsome build
 deploy:

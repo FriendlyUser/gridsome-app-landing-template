@@ -21,5 +21,8 @@
   },
   "devDependencies": {
     "tailwindcss": "^1.0.0-beta.4"
+  },
+  "resolutions": {
+    "gridsome/vue-router": "3.0.6"
   }
 }
