@@ -1,0 +1,16 @@
+language: node_js
+node_js:
+  - "10"
+before_script:
+  - npm install
+  - npm install --global @gridsome/cli
+script:
+  - gridsome build
+deploy:
+  provider: pages
+  skip_cleanup: true
+  github_token: $GITHUB_TOKEN  # Set in the settings page of your repository, as a secure variable
+  keep_history: true
+  local_dir: dist
+  on:
+    branch: master
