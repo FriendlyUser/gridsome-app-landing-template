@@ -20,7 +20,7 @@
     "vue-scrollto": "^2.15.0"
   },
   "devDependencies": {
-    "tailwindcss": "^1.0.0-beta.4"
+    "tailwindcss": "^1.4.6"
   },
   "resolutions": {
     "gridsome/vue-router": "3.0.6"
