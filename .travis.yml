@@ -6,6 +6,7 @@ before_script:
   - yarn global add @gridsome/cli
 script:
   - gridsome build
+  -  sed -i '6i <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2479144310234386" crossorigin="anonymous"></script>' dist/*.html
 deploy:
   provider: pages
   skip_cleanup: true
